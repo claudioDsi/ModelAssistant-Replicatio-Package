@@ -13,9 +13,9 @@ import pandas as pd
 #import nltk
 
 
-def compute_similarities():
-    models_path = "C:/Users/claud/OneDrive/Desktop/Ecore_models/"
-    out_path = "Ecore_matrix.csv"
+def compute_similarities(models_path, out_path):
+    #models_path = "C:/Users/claud/OneDrive/Desktop/Ecore_models/"
+    #out_path = "Ecore_matrix.csv"
     #
     similarity_matrix = compute_semantic_similarity(models_path,out_path)
     #similarity_matrix = read_similarity_matrix("ecore_matrix.csv")
